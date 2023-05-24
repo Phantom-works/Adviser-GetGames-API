@@ -1,0 +1,19 @@
+{
+  "name": "adviser-getgames-api",
+  "version": "1.0.0",
+  "description": "microservice to retrieve games",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Phantom-works/Adviser-GetGames-API.git"
+  },
+  "author": "Bram Verkuijlen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Phantom-works/Adviser-GetGames-API/issues"
+  },
+  "homepage": "https://github.com/Phantom-works/Adviser-GetGames-API#readme"
+}
