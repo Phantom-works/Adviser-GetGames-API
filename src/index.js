@@ -10,44 +10,35 @@ const axios = require("axios");
 const fs = require("fs");
 
 // Set access token to env variable
-process.env.TWITCH_APP_ACCESS_TOKEN = JSON.parse(fs.readFileSync("accessToken.json")).access_token
-console.log(process.env.TWITCH_APP_ACCESS_TOKEN)
+process.env.TWITCH_APP_ACCESS_TOKEN = JSON.parse(
+  fs.readFileSync("accessToken.json")
+).access_token;
 
 app.use(express.json());
 
 app.listen(PORT, () => {
   console.log(`Its alive on http://localhost:${PORT}`);
 });
-
-app.get("/Games", (req, res) => {
-  const { keyword } = req.body;
-  const { amount } = req.body;
-
-  if (!amount) {
-    res.status(400).send({
-      error: "bad-request",
-      message: "Please fill in the amount field",
-    });
-  } else if (!keyword) {
-    res.status(400).send({
-      error: "bad-request",
-      message: "Please fill in the keyword field",
-    });
-  } else {
-    res.status(200).send("coming up");
-  }
-});
-
-app.get("/Test", (req, res) => {
+app.get("/Games", async (req, res) => {
   setAccessToken();
 
-  res.status(200).send();
+  const genres = req.body.genres;
+
+  const games = await igdb()
+    .limit(5) // limit to 50 results
+    .fields("name,cover.url")
+
+    .where(`genres.slug = ("${genres.join('","')}")`)
+
+    .request("/games"); // execute the query and return a response object
+
+  res.status(200).send(games.data);
 });
 
 // Function to check if access token has expired and set a new one if needed
 function setAccessToken() {
   if (checkIfTokenExpired()) {
-      setNewAccessToken();
+    setNewAccessToken();
   }
 }
 
@@ -59,7 +50,6 @@ function checkIfTokenExpired() {
     Date.now() / 1000
   );
 }
-
 
 // Function to set a new access token
 async function setNewAccessToken() {

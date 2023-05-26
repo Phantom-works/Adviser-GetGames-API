@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="90f869d1-894e-486b-9fa9-20bbf2335ada" name="Changes" comment="🔐 Safeguarding Our Secrets! Implemented a simple API and introduced an .env file to securely store and manage our precious secrets, fortifying our application's defenses 🛡️🔒🔐🔏">
-      <change afterPath="$PROJECT_DIR$/src/accessToken.json" afterDir="false" />
+    <list default="true" id="90f869d1-894e-486b-9fa9-20bbf2335ada" name="Changes" comment="✨ Embracing Enchanted Token Renewal! Unleashed the mystical power of automatic access token refreshment, seamlessly storing them in a magical JSON repository, safeguarding our realm with otherworldly authentication and limitless access 🧙‍♂️🔑✨📦">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,7 +42,9 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/bramv/OneDrive/Documenten/fontys/Semester 3/Eigen Project/Adviser-GetGames-API",
+    "javascript.nodejs.core.library.configured.version": "18.13.0",
+    "javascript.nodejs.core.library.typings.version": "18.13.0",
+    "last_opened_file_path": "C:/Users/bramv/OneDrive/Documenten/fontys/Semester 3/Eigen Project/Adviser-GetGames-API/src",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -57,8 +56,23 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Node.js.index.js">
-    <configuration name="index.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/index.js" working-dir="$PROJECT_DIR$/src">
+  <component name="RunManager" selected="Shell Script.Dev">
+    <configuration name="index.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="index.js" working-dir="$PROJECT_DIR$/src">
+      <method v="2" />
+    </configuration>
+    <configuration name="Dev" type="ShConfigurationType">
+      <option name="SCRIPT_TEXT" value="nodemon start" />
+      <option name="INDEPENDENT_SCRIPT_PATH" value="true" />
+      <option name="SCRIPT_PATH" value="" />
+      <option name="SCRIPT_OPTIONS" value="" />
+      <option name="INDEPENDENT_SCRIPT_WORKING_DIRECTORY" value="false" />
+      <option name="SCRIPT_WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="INDEPENDENT_INTERPRETER_PATH" value="true" />
+      <option name="INTERPRETER_PATH" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="EXECUTE_IN_TERMINAL" value="true" />
+      <option name="EXECUTE_SCRIPT_FILE" value="false" />
+      <envs />
       <method v="2" />
     </configuration>
     <configuration name="test" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
@@ -71,6 +85,11 @@
       <envs />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Node.js.index.js" />
+      <item itemvalue="npm.test" />
+      <item itemvalue="Shell Script.Dev" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Node.js.index.js" />
@@ -92,7 +111,7 @@
       <workItem from="1684921196718" duration="313000" />
       <workItem from="1684926518362" duration="4732000" />
       <workItem from="1685086990382" duration="862000" />
-      <workItem from="1685087874449" duration="9696000" />
+      <workItem from="1685087874449" duration="17488000" />
     </task>
     <task id="LOCAL-00001" summary="🔐 Safeguarding Our Secrets! Implemented a simple API and introduced an .env file to securely store and manage our precious secrets, fortifying our application's defenses 🛡️🔒🔐🔏">
       <created>1685088053108</created>
@@ -101,7 +120,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685088053108</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="✨ Embracing Enchanted Token Renewal! Unleashed the mystical power of automatic access token refreshment, seamlessly storing them in a magical JSON repository, safeguarding our realm with otherworldly authentication and limitless access 🧙‍♂️🔑✨📦">
+      <created>1685099043577</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1685099043577</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -109,6 +135,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value=" Safeguarding Our Secrets! Implemented a simple API and introduced an .env file to securely store and manage our precious secrets, fortifying our application's defenses ️" />
-    <option name="LAST_COMMIT_MESSAGE" value=" Safeguarding Our Secrets! Implemented a simple API and introduced an .env file to securely store and manage our precious secrets, fortifying our application's defenses ️" />
+    <MESSAGE value="✨ Embracing Enchanted Token Renewal! Unleashed the mystical power of automatic access token refreshment, seamlessly storing them in a magical JSON repository, safeguarding our realm with otherworldly authentication and limitless access ‍♂️✨" />
+    <option name="LAST_COMMIT_MESSAGE" value="✨ Embracing Enchanted Token Renewal! Unleashed the mystical power of automatic access token refreshment, seamlessly storing them in a magical JSON repository, safeguarding our realm with otherworldly authentication and limitless access ‍♂️✨" />
   </component>
 </project>
