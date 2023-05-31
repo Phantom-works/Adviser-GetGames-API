@@ -23,7 +23,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="tests" />
       </map>
     </option>
   </component>
@@ -36,26 +36,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "javascript.nodejs.core.library.configured.version": "18.13.0",
-    "javascript.nodejs.core.library.typings.version": "18.13.0",
-    "last_opened_file_path": "C:/Users/bramv/OneDrive/Documenten/fontys/Semester 3/Eigen Project/Adviser-GetGames-API/src",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_interpreter_path": "node",
-    "nodejs_package_manager_path": "npm",
-    "prettierjs.PrettierConfiguration.Package": "C:\\Users\\bramv\\OneDrive\\Documenten\\fontys\\Semester 3\\Eigen Project\\Adviser-GetGames-API\\node_modules\\prettier",
-    "settings.editor.selected.configurable": "preferences.keymap",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;18.13.0&quot;,
+    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;18.13.0&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/bramv/OneDrive/Documenten/fontys/Semester 3/Eigen Project/Adviser-GetGames-API/src&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_interpreter_path&quot;: &quot;node&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;C:\\Users\\bramv\\OneDrive\\Documenten\\fontys\\Semester 3\\Eigen Project\\Adviser-GetGames-API\\node_modules\\prettier&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Shell Script.Dev">
     <configuration name="index.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="index.js" working-dir="$PROJECT_DIR$/src">
       <method v="2" />
@@ -112,6 +112,7 @@
       <workItem from="1684926518362" duration="4732000" />
       <workItem from="1685086990382" duration="862000" />
       <workItem from="1685087874449" duration="17488000" />
+      <workItem from="1685529636460" duration="719000" />
     </task>
     <task id="LOCAL-00001" summary="🔐 Safeguarding Our Secrets! Implemented a simple API and introduced an .env file to securely store and manage our precious secrets, fortifying our application's defenses 🛡️🔒🔐🔏">
       <created>1685088053108</created>
@@ -127,7 +128,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685099043577</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="tried to add test (didnt really work :( )">
+      <created>1685529698304</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1685529698304</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -136,6 +144,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value=" Safeguarding Our Secrets! Implemented a simple API and introduced an .env file to securely store and manage our precious secrets, fortifying our application's defenses ️" />
     <MESSAGE value="✨ Embracing Enchanted Token Renewal! Unleashed the mystical power of automatic access token refreshment, seamlessly storing them in a magical JSON repository, safeguarding our realm with otherworldly authentication and limitless access ‍♂️✨" />
-    <option name="LAST_COMMIT_MESSAGE" value="✨ Embracing Enchanted Token Renewal! Unleashed the mystical power of automatic access token refreshment, seamlessly storing them in a magical JSON repository, safeguarding our realm with otherworldly authentication and limitless access ‍♂️✨" />
+    <MESSAGE value="tried to add test (didnt really work :( )" />
+    <option name="LAST_COMMIT_MESSAGE" value="tried to add test (didnt really work :( )" />
   </component>
 </project>

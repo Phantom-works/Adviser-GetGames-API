@@ -19,7 +19,7 @@ app.use(express.json());
 app.listen(PORT, () => {
   console.log(`Its alive on http://localhost:${PORT}`);
 });
-app.get("/Games", async (req, res) => {
+app.get("/", async (req, res) => {
   setAccessToken();
 
   const genres = req.body.genres;
