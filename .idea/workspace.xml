@@ -4,8 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="90f869d1-894e-486b-9fa9-20bbf2335ada" name="Changes" comment="✨ Embracing Enchanted Token Renewal! Unleashed the mystical power of automatic access token refreshment, seamlessly storing them in a magical JSON repository, safeguarding our realm with otherworldly authentication and limitless access 🧙‍♂️🔑✨📦">
+    <list default="true" id="90f869d1-894e-486b-9fa9-20bbf2335ada" name="Changes" comment="changed api call">
+      <change afterPath="$PROJECT_DIR$/src/twitchKeyManager.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/accessToken.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/accessToken.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -112,7 +116,9 @@
       <workItem from="1684926518362" duration="4732000" />
       <workItem from="1685086990382" duration="862000" />
       <workItem from="1685087874449" duration="17488000" />
-      <workItem from="1685529636460" duration="719000" />
+      <workItem from="1685529636460" duration="4478000" />
+      <workItem from="1685541942610" duration="198000" />
+      <workItem from="1685691248532" duration="6588000" />
     </task>
     <task id="LOCAL-00001" summary="🔐 Safeguarding Our Secrets! Implemented a simple API and introduced an .env file to securely store and manage our precious secrets, fortifying our application's defenses 🛡️🔒🔐🔏">
       <created>1685088053108</created>
@@ -135,7 +141,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685529698304</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="changed api call">
+      <created>1685534404990</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1685534404990</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -145,6 +158,7 @@
     <MESSAGE value=" Safeguarding Our Secrets! Implemented a simple API and introduced an .env file to securely store and manage our precious secrets, fortifying our application's defenses ️" />
     <MESSAGE value="✨ Embracing Enchanted Token Renewal! Unleashed the mystical power of automatic access token refreshment, seamlessly storing them in a magical JSON repository, safeguarding our realm with otherworldly authentication and limitless access ‍♂️✨" />
     <MESSAGE value="tried to add test (didnt really work :( )" />
-    <option name="LAST_COMMIT_MESSAGE" value="tried to add test (didnt really work :( )" />
+    <MESSAGE value="changed api call" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed api call" />
   </component>
 </project>
