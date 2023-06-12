@@ -16,9 +16,7 @@ process.env.TWITCH_APP_ACCESS_TOKEN = JSON.parse(
   fs.readFileSync("./accessToken.json")
 ).access_token;
 
-const tokenManager = require ("./twitchKeyManager")
-
-
+const {setAccessToken} = require ("./twitchKeyManager")
 
 // Paste it's alive on program startup
 app.listen(PORT, () => {
@@ -28,7 +26,7 @@ app.listen(PORT, () => {
 // Listen for post request
 app.post("/Games", async (req, res) => {
 
-  tokenManager.setAccessToken()
+  await setAccessToken()
 
   const genres = req.body.genres;
 

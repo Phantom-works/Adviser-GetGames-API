@@ -1,13 +1,11 @@
 const fs = require("fs");
 const axios = require("axios");
 
-module.exports = {
-  setAccessToken : function() {
+exports.setAccessToken = async () => {
   if (checkIfTokenExpired()) {
-    setNewAccessToken();
+    await setNewAccessToken();
   }
-}
-}
+};
 
 // Function to check if access token has expired and set a new one if needed
 
@@ -24,7 +22,7 @@ function checkIfTokenExpired() {
 async function setNewAccessToken() {
   const token = await retrieveAccessToken();
   process.env.TWITCH_APP_ACCESS_TOKEN = token;
-  storeAccessTokenInJson(token);
+  await storeAccessTokenInJson(token);
 }
 
 // Function to retrieve a new access token from the Twitch API

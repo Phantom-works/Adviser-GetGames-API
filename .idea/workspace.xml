@@ -4,13 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="90f869d1-894e-486b-9fa9-20bbf2335ada" name="Changes" comment="changed api call">
-      <change afterPath="$PROJECT_DIR$/src/twitchKeyManager.js" afterDir="false" />
+    <list default="true" id="90f869d1-894e-486b-9fa9-20bbf2335ada" name="Changes" comment="🔑 Elevating Twitch Integration to New Heights! Extracted the Twitch key configuration into its own file, unlocking the potential for seamless integration, while embracing the power of Cross-Origin Resource Sharing (CORS) to enable API calls from diverse sources 🚀🔑🔗🌐">
+      <change afterPath="$PROJECT_DIR$/src/index.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/twitchKeyManager.test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/accessToken.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/accessToken.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/twitchKeyManager.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/twitchKeyManager.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +54,8 @@
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs.jest.jest_package&quot;: &quot;C:/Users/bramv/OneDrive/Documenten/fontys/Semester 3/Eigen Project/Adviser-GetGames-API/node_modules/jest&quot;,
+    &quot;nodejs.mocha.mocha_node_package_dir&quot;: &quot;C:/Users/bramv/OneDrive/Documenten/fontys/Semester 3/Eigen Project/Adviser-GetGames-API/node_modules/mocha&quot;,
     &quot;nodejs_interpreter_path&quot;: &quot;node&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;C:\\Users\\bramv\\OneDrive\\Documenten\\fontys\\Semester 3\\Eigen Project\\Adviser-GetGames-API\\node_modules\\prettier&quot;,
@@ -60,8 +63,73 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Shell Script.Dev">
-    <configuration name="index.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="index.js" working-dir="$PROJECT_DIR$/src">
+  <component name="RunManager" selected="Jest.POST /Games.should return an array of games when genres are provided">
+    <configuration name="Integration Tests" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/src/index.test.js" />
+      <test-names>
+        <test-name value="Integration Tests" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="Integration Tests.should return games based on genres" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/index.test.js" />
+      <test-names>
+        <test-name value="Integration Tests" />
+        <test-name value="should return games based on genres" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="POST /Games.should return an array of games when genres are provided" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/index.test.js" />
+      <test-names>
+        <test-name value="POST /Games" />
+        <test-name value="should return an array of games when genres are provided" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="setAccessToken" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/src/twitchKeyManager.test.js" />
+      <test-names>
+        <test-name value="setAccessToken" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="setAccessToken.should call setNewAccessToken if token has expired" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/twitchKeyManager.test.js" />
+      <test-names>
+        <test-name value="setAccessToken" />
+        <test-name value="should call setNewAccessToken if token has expired" />
+      </test-names>
       <method v="2" />
     </configuration>
     <configuration name="Dev" type="ShConfigurationType">
@@ -79,26 +147,21 @@
       <envs />
       <method v="2" />
     </configuration>
-    <configuration name="test" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="test" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
-      <method v="2" />
-    </configuration>
     <list>
-      <item itemvalue="Node.js.index.js" />
-      <item itemvalue="npm.test" />
+      <item itemvalue="Jest.Integration Tests.should return games based on genres" />
+      <item itemvalue="Jest.POST /Games.should return an array of games when genres are provided" />
+      <item itemvalue="Jest.setAccessToken" />
+      <item itemvalue="Jest.setAccessToken.should call setNewAccessToken if token has expired" />
+      <item itemvalue="Jest.Integration Tests" />
       <item itemvalue="Shell Script.Dev" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Node.js.index.js" />
-        <item itemvalue="npm.test" />
-        <item itemvalue="npm.test" />
+        <item itemvalue="Jest.POST /Games.should return an array of games when genres are provided" />
+        <item itemvalue="Jest.Integration Tests" />
+        <item itemvalue="Jest.Integration Tests.should return games based on genres" />
+        <item itemvalue="Jest.setAccessToken.should call setNewAccessToken if token has expired" />
+        <item itemvalue="Jest.setAccessToken" />
       </list>
     </recent_temporary>
   </component>
@@ -118,7 +181,11 @@
       <workItem from="1685087874449" duration="17488000" />
       <workItem from="1685529636460" duration="4478000" />
       <workItem from="1685541942610" duration="198000" />
-      <workItem from="1685691248532" duration="6588000" />
+      <workItem from="1685691248532" duration="9567000" />
+      <workItem from="1685953602723" duration="191000" />
+      <workItem from="1686124587795" duration="1199000" />
+      <workItem from="1686137395519" duration="4599000" />
+      <workItem from="1686300748412" duration="9480000" />
     </task>
     <task id="LOCAL-00001" summary="🔐 Safeguarding Our Secrets! Implemented a simple API and introduced an .env file to securely store and manage our precious secrets, fortifying our application's defenses 🛡️🔒🔐🔏">
       <created>1685088053108</created>
@@ -148,7 +215,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685534404990</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="🔑 Elevating Twitch Integration to New Heights! Extracted the Twitch key configuration into its own file, unlocking the potential for seamless integration, while embracing the power of Cross-Origin Resource Sharing (CORS) to enable API calls from diverse sources 🚀🔑🔗🌐">
+      <created>1685702799087</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1685702799087</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -159,6 +233,7 @@
     <MESSAGE value="✨ Embracing Enchanted Token Renewal! Unleashed the mystical power of automatic access token refreshment, seamlessly storing them in a magical JSON repository, safeguarding our realm with otherworldly authentication and limitless access ‍♂️✨" />
     <MESSAGE value="tried to add test (didnt really work :( )" />
     <MESSAGE value="changed api call" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed api call" />
+    <MESSAGE value=" Elevating Twitch Integration to New Heights! Extracted the Twitch key configuration into its own file, unlocking the potential for seamless integration, while embracing the power of Cross-Origin Resource Sharing (CORS) to enable API calls from diverse sources " />
+    <option name="LAST_COMMIT_MESSAGE" value=" Elevating Twitch Integration to New Heights! Extracted the Twitch key configuration into its own file, unlocking the potential for seamless integration, while embracing the power of Cross-Origin Resource Sharing (CORS) to enable API calls from diverse sources " />
   </component>
 </project>

@@ -4,7 +4,7 @@
   "description": "microservice to retrieve games",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha test.js"
   },
   "repository": {
     "type": "git",
@@ -27,5 +27,9 @@
     "is-plain-object": "^5.0.0",
     "nodemon": "^2.0.22",
     "prettier": "^2.8.8"
+  },
+  "devDependencies": {
+    "jest": "^29.5.0",
+    "supertest": "^6.3.3"
   }
 }
