@@ -4,14 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="90f869d1-894e-486b-9fa9-20bbf2335ada" name="Changes" comment="🔑 Elevating Twitch Integration to New Heights! Extracted the Twitch key configuration into its own file, unlocking the potential for seamless integration, while embracing the power of Cross-Origin Resource Sharing (CORS) to enable API calls from diverse sources 🚀🔑🔗🌐">
-      <change afterPath="$PROJECT_DIR$/src/index.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/twitchKeyManager.test.js" afterDir="false" />
+    <list default="true" id="90f869d1-894e-486b-9fa9-20bbf2335ada" name="Changes" comment="🧪 Testing the Foundations! Embarked on the noble quest of implementing tests for the index file, fortifying our codebase with robust validation and ensuring the stability of our application's core 🏰🧪🧱💪">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/twitchKeyManager.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/twitchKeyManager.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -186,6 +180,8 @@
       <workItem from="1686124587795" duration="1199000" />
       <workItem from="1686137395519" duration="4599000" />
       <workItem from="1686300748412" duration="9480000" />
+      <workItem from="1686573094541" duration="423000" />
+      <workItem from="1686573992878" duration="10000" />
     </task>
     <task id="LOCAL-00001" summary="🔐 Safeguarding Our Secrets! Implemented a simple API and introduced an .env file to securely store and manage our precious secrets, fortifying our application's defenses 🛡️🔒🔐🔏">
       <created>1685088053108</created>
