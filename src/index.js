@@ -12,9 +12,6 @@ app.use(express.json())
 const PORT = 8080;
 
 // Set access token to env variable
-process.env.TWITCH_APP_ACCESS_TOKEN = JSON.parse(
-  fs.readFileSync("./accessToken.json")
-).access_token;
 
 const {setAccessToken} = require ("./twitchKeyManager")
 

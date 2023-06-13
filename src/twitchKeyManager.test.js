@@ -40,7 +40,6 @@ describe("setAccessToken", () => {
     expect(fs.writeFileSync).toHaveBeenCalledWith(
       "accessToken.json",
       JSON.stringify({
-        access_token: "newAccessToken",
         expires_in: 3600,
         expires_at: 3841,
         token_type: "Bearer",

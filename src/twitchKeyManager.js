@@ -2,7 +2,7 @@ const fs = require("fs");
 const axios = require("axios");
 
 exports.setAccessToken = async () => {
-  if (checkIfTokenExpired()) {
+  if (checkIfTokenExpired() || !process.env.TWITCH_APP_ACCESS_TOKEN) {
     await setNewAccessToken();
   }
 };
@@ -21,7 +21,7 @@ function checkIfTokenExpired() {
 // Function to set a new access token
 async function setNewAccessToken() {
   const token = await retrieveAccessToken();
-  process.env.TWITCH_APP_ACCESS_TOKEN = token;
+  process.env.TWITCH_APP_ACCESS_TOKEN = token.access_token;
   await storeAccessTokenInJson(token);
 }
 
@@ -38,7 +38,6 @@ async function retrieveAccessToken() {
 // Function to store the new access token in the accessToken.json file
 async function storeAccessTokenInJson(_token) {
   let token = {
-    access_token: _token.access_token,
     expires_in: _token.expires_in,
     expires_at: getExpiryDate(_token.expires_in),
     token_type: _token.token_type,

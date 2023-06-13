@@ -4,8 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="90f869d1-894e-486b-9fa9-20bbf2335ada" name="Changes" comment="🧪 Testing the Foundations! Embarked on the noble quest of implementing tests for the index file, fortifying our codebase with robust validation and ensuring the stability of our application's core 🏰🧪🧱💪">
+    <list default="true" id="90f869d1-894e-486b-9fa9-20bbf2335ada" name="Changes" comment="🔑 Elevating Twitch Integration to New Heights! Extracted the Twitch key configuration into its own file, unlocking the potential for seamless integration, while embracing the power of Cross-Origin Resource Sharing (CORS) to enable API calls from diverse sources 🚀🔑🔗🌐">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/accessToken.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/accessToken.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/twitchKeyManager.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/twitchKeyManager.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/twitchKeyManager.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/twitchKeyManager.test.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,7 +27,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="tests" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
   </component>
@@ -57,7 +62,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Jest.POST /Games.should return an array of games when genres are provided">
+  <component name="RunManager" selected="npm.build">
     <configuration name="Integration Tests" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -112,20 +117,6 @@
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="setAccessToken.should call setNewAccessToken if token has expired" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/src/twitchKeyManager.test.js" />
-      <test-names>
-        <test-name value="setAccessToken" />
-        <test-name value="should call setNewAccessToken if token has expired" />
-      </test-names>
-      <method v="2" />
-    </configuration>
     <configuration name="Dev" type="ShConfigurationType">
       <option name="SCRIPT_TEXT" value="nodemon start" />
       <option name="INDEPENDENT_SCRIPT_PATH" value="true" />
@@ -141,21 +132,31 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Jest.Integration Tests.should return games based on genres" />
       <item itemvalue="Jest.POST /Games.should return an array of games when genres are provided" />
       <item itemvalue="Jest.setAccessToken" />
-      <item itemvalue="Jest.setAccessToken.should call setNewAccessToken if token has expired" />
       <item itemvalue="Jest.Integration Tests" />
+      <item itemvalue="npm.build" />
       <item itemvalue="Shell Script.Dev" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.build" />
+        <item itemvalue="Jest.setAccessToken" />
         <item itemvalue="Jest.POST /Games.should return an array of games when genres are provided" />
         <item itemvalue="Jest.Integration Tests" />
         <item itemvalue="Jest.Integration Tests.should return games based on genres" />
-        <item itemvalue="Jest.setAccessToken.should call setNewAccessToken if token has expired" />
-        <item itemvalue="Jest.setAccessToken" />
       </list>
     </recent_temporary>
   </component>
