@@ -4,7 +4,8 @@
   "description": "microservice to retrieve games",
   "main": "index.js",
   "scripts": {
-    "test": "jest test.js"
+    "test": "jest test.js",
+    "build": "node src/index.js"
   },
   "repository": {
     "type": "git",
