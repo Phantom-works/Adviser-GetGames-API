@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="90f869d1-894e-486b-9fa9-20bbf2335ada" name="Changes" comment="rolled back some changes">
-      <change afterPath="$PROJECT_DIR$/accessToken.json" afterDir="false" />
+    <list default="true" id="90f869d1-894e-486b-9fa9-20bbf2335ada" name="Changes" comment="🔬 Unleashing the Power of Testing! Introduced a comprehensive test for the index file, diligently checking if it gracefully handles a 400 error, ensuring robustness and error handling capabilities in our application's core 🧪🧐🚀🔀">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/src/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/accessToken.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/twitchKeyManager.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/twitchKeyManager.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,8 +63,8 @@
       <recent name="C:\Users\bramv\OneDrive\Documenten\fontys\Semester 3\Eigen Project\Adviser-GetGames-API" />
     </key>
   </component>
-  <component name="RunManager" selected="Jest.setAccessToken.should call setNewAccessToken if token has expired">
-    <configuration name="Integration Tests" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Jest.POST /Games">
+    <configuration name="POST /Games" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <jest-package value="$PROJECT_DIR$/node_modules/jest" />
@@ -76,7 +73,21 @@
       <scope-kind value="SUITE" />
       <test-file value="$PROJECT_DIR$/src/index.test.js" />
       <test-names>
-        <test-name value="Integration Tests" />
+        <test-name value="POST /Games" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="POST /Games.should return 400 when genres are not provided" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/index.test.js" />
+      <test-names>
+        <test-name value="POST /Games" />
+        <test-name value="should return 400 when genres are not provided" />
       </test-names>
       <method v="2" />
     </configuration>
@@ -91,19 +102,6 @@
       <test-names>
         <test-name value="POST /Games" />
         <test-name value="should return an array of games when genres are provided" />
-      </test-names>
-      <method v="2" />
-    </configuration>
-    <configuration name="setAccessToken" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="SUITE" />
-      <test-file value="$PROJECT_DIR$/src/twitchKeyManager.test.js" />
-      <test-names>
-        <test-name value="setAccessToken" />
       </test-names>
       <method v="2" />
     </configuration>
@@ -150,20 +148,20 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Jest.POST /Games" />
+      <item itemvalue="Jest.POST /Games.should return 400 when genres are not provided" />
       <item itemvalue="Jest.setAccessToken.should call setNewAccessToken if token has expired" />
       <item itemvalue="Jest.POST /Games.should return an array of games when genres are provided" />
-      <item itemvalue="Jest.setAccessToken" />
-      <item itemvalue="Jest.Integration Tests" />
       <item itemvalue="npm.build" />
       <item itemvalue="Shell Script.Dev" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Jest.setAccessToken.should call setNewAccessToken if token has expired" />
-        <item itemvalue="Jest.setAccessToken" />
+        <item itemvalue="Jest.POST /Games" />
         <item itemvalue="npm.build" />
         <item itemvalue="Jest.POST /Games.should return an array of games when genres are provided" />
-        <item itemvalue="Jest.Integration Tests" />
+        <item itemvalue="Jest.POST /Games.should return 400 when genres are not provided" />
+        <item itemvalue="Jest.setAccessToken.should call setNewAccessToken if token has expired" />
       </list>
     </recent_temporary>
   </component>
@@ -276,7 +274,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686669033196</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="🔬 Unleashing the Power of Testing! Introduced a comprehensive test for the index file, diligently checking if it gracefully handles a 400 error, ensuring robustness and error handling capabilities in our application's core 🧪🧐🚀🔀">
+      <created>1686735352245</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1686735352245</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -291,6 +296,7 @@
     <MESSAGE value=" Securing Access with Environment Variables! Enhanced the security of our application by ensuring that the access token is exclusively set as an environment variable, safeguarding it from accidental exposure and unauthorized access ️" />
     <MESSAGE value="placed distribution adopt in right place" />
     <MESSAGE value="rolled back some changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="rolled back some changes" />
+    <MESSAGE value=" Unleashing the Power of Testing! Introduced a comprehensive test for the index file, diligently checking if it gracefully handles a 400 error, ensuring robustness and error handling capabilities in our application's core " />
+    <option name="LAST_COMMIT_MESSAGE" value=" Unleashing the Power of Testing! Introduced a comprehensive test for the index file, diligently checking if it gracefully handles a 400 error, ensuring robustness and error handling capabilities in our application's core " />
   </component>
 </project>
