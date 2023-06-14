@@ -4,7 +4,7 @@
   "description": "microservice to retrieve games",
   "main": "index.js",
   "scripts": {
-    "test": "jest test.js",
+    "test": "jest --forceExit",
     "build": "node src/index.js"
   },
   "repository": {
