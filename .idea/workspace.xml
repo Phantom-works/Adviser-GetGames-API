@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="90f869d1-894e-486b-9fa9-20bbf2335ada" name="Changes" comment="placed distribution adopt in right place">
+    <list default="true" id="90f869d1-894e-486b-9fa9-20bbf2335ada" name="Changes" comment="rolled back some changes">
       <change beforePath="$PROJECT_DIR$/.github/workflows/devCI.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/devCI.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -178,6 +179,7 @@
       <workItem from="1686300748412" duration="9480000" />
       <workItem from="1686573094541" duration="423000" />
       <workItem from="1686573992878" duration="10000" />
+      <workItem from="1686729555110" duration="221000" />
     </task>
     <task id="LOCAL-00001" summary="🔐 Safeguarding Our Secrets! Implemented a simple API and introduced an .env file to securely store and manage our precious secrets, fortifying our application's defenses 🛡️🔒🔐🔏">
       <created>1685088053108</created>
@@ -256,7 +258,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686668878209</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="rolled back some changes">
+      <created>1686669033196</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1686669033196</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -270,6 +279,7 @@
     <MESSAGE value=" Elevating Twitch Integration to New Heights! Extracted the Twitch key configuration into its own file, unlocking the potential for seamless integration, while embracing the power of Cross-Origin Resource Sharing (CORS) to enable API calls from diverse sources " />
     <MESSAGE value=" Securing Access with Environment Variables! Enhanced the security of our application by ensuring that the access token is exclusively set as an environment variable, safeguarding it from accidental exposure and unauthorized access ️" />
     <MESSAGE value="placed distribution adopt in right place" />
-    <option name="LAST_COMMIT_MESSAGE" value="placed distribution adopt in right place" />
+    <MESSAGE value="rolled back some changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="rolled back some changes" />
   </component>
 </project>
