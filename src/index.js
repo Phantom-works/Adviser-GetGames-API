@@ -23,13 +23,19 @@ app.post("/Games", async (req, res) => {
   if (!req.body.genres) {
     return res.status(400).send("Genres field is missing in the request body");
   }
+  if (!req.body.quantity) {
+    return res.status(400).send("Quantity field is missing in the request body");
+  }
 
   await setAccessToken();
 
   const genres = req.body.genres;
+  const quantity = req.body.quantity;
 
+
+  console.log(quantity);
   const games = await igdb()
-    .limit(5) // limit to 50 results
+    .limit(quantity) // limit to 50 results
     .fields("name,cover.url")
 
     .where(`genres.slug = ("${genres.join('","')}")`)
